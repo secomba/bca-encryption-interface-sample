@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/source_file_path_edittext"
+                android:hint="@string/source_file_path_edittext_hint"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/target_folder_path_edittext"
+                android:hint="@string/target_folder_path_edittext_hint"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp">
+
+            <Button
+                android:id="@+id/encrypt_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/encrypt_button_text"
+                android:textSize="30sp"/>
+
+            <Button
+                android:id="@+id/encrypt_abort_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/encrypt_abort_button_text"
+                android:textSize="30sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp">
+
+            <Button
+                android:id="@+id/decrypt_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/decrypt_button_text"
+                android:textSize="30sp"/>
+
+            <Button
+                android:id="@+id/decrypt_abort_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/decrypt_abort_button_text"
+                android:textSize="30sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/decrypted_filename_edittext"
+                android:hint="@string/decrypted_filename_edittext_hint"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/encrypted_filename_edittext"
+                android:hint="@string/encrypted_filename_edittext_hint"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp">
+
+            <Button
+                android:id="@+id/encrypt_filename_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/encrypt_filename_button_text"
+                android:textSize="30sp"/>
+
+            <Button
+                android:id="@+id/decrypt_filename_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/decrypt_filename_button_text"
+                android:textSize="30sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/decrypted_foldername_edittext"
+                android:hint="@string/decrypted_foldername_edittext_hint"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/encrypted_foldername_edittext"
+                android:hint="@string/encrypted_foldername_edittext_hint"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp">
+
+            <Button
+                android:id="@+id/encrypt_foldername_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/encrypt_foldername_button_text"
+                android:textSize="30sp"/>
+
+            <Button
+                android:id="@+id/decrypt_foldername_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/decrypt_foldername_button_text"
+                android:textSize="30sp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

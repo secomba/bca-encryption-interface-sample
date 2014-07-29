@@ -1,0 +1,26 @@
+<resources>
+
+    <string name="app_name">Boxcryptor for Android Encryption Interface Sample</string>
+
+    <string name="source_file_path_edittext_hint">Enter source file path</string>
+    <string name="target_folder_path_edittext_hint">Enter target folder path</string>
+
+    <string name="encrypt_button_text">Encrypt</string>
+    <string name="encrypt_abort_button_text">Abort Encryption</string>
+
+    <string name="decrypt_button_text">Decrypt</string>
+    <string name="decrypt_abort_button_text">Abort Decryption</string>
+
+    <string name="decrypted_filename_edittext_hint">Decrypted filename</string>
+    <string name="encrypted_filename_edittext_hint">Encrypted filename</string>
+
+    <string name="encrypt_filename_button_text">Encrypt filename</string>
+    <string name="decrypt_filename_button_text">Decrypt filename</string>
+
+    <string name="decrypted_foldername_edittext_hint">Decrypted foldername</string>
+    <string name="encrypted_foldername_edittext_hint">Encrypted foldername</string>
+
+    <string name="encrypt_foldername_button_text">Encrypt foldername</string>
+    <string name="decrypt_foldername_button_text">Decrypt foldername</string>
+
+</resources>
